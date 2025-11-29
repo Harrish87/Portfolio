@@ -1,6 +1,9 @@
 import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
+import pro1 from "./src/assets/images/proj1.png"
+import pro2 from "./src/assets/images/proj2.png"
+import pro3 from "./src/assets/images/proj3.png"
 
 const projects = [
   {
@@ -8,7 +11,7 @@ const projects = [
     description:
       "A responsive Organic Spices website created with HTML, CSS, and Bootstrap, designed to display spice products in a clean and user-friendly layout.",
     src: "rock.jpg",
-    link: "./src/assets/images/proj1.png",
+    link: pro1 ,
     color: "#5196fd",
     githubLink: "https://github.com/Harrish87/Spice",
     liveLink: "https://1spice.vercel.app",
@@ -18,7 +21,7 @@ const projects = [
     description:
       "MR Lab And Studio Project brings ideas to life through a visually immersive and interactive showcase Using HTML , CSS And Bootstrap .",
     src: "water.jpg",
-    link: "./src/assets/images/proj2.png",
+    link: pro2 ,
     color: "#fff",
     githubLink: "https://github.com/Harrish87/MrLab",
     liveLink: "https://mrlab.vercel.app/",
@@ -28,7 +31,7 @@ const projects = [
     description:
       "A portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
     src: "tree.jpg",
-    link: "./src/assets/images/proj3.png",
+    link: pro3 ,
     color: "#8f89ff",
     githubLink: "https://github.com/Harrish87/portfolio",
     liveLink: "https://harrishportfolio.vercel.app",
