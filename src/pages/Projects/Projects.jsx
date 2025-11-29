@@ -1,9 +1,9 @@
 import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
-import pro1 from "./src/assets/images/proj1.png"
-import pro2 from "./src/assets/images/proj2.png"
-import pro3 from "./src/assets/images/proj3.png"
+import pro1 from '../../assets/images/proj1.png';
+import pro2 from '../../assets/images/proj2.png';
+import pro3 from '../../assets/images/proj3.png';
 
 const projects = [
   {
